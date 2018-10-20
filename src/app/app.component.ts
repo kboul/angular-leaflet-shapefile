@@ -11,6 +11,7 @@ declare let L;
 export class AppComponent implements OnInit {
 	ngOnInit() {
 		const m = L.map('map').setView([34.74161249883172, 18.6328125], 2);
+		
       	const geo = L.geoJson({features: []}, { onEachFeature: function popUp(f, l) {
 			const out = [];
 			if (f.properties) {
@@ -20,6 +21,7 @@ export class AppComponent implements OnInit {
 				l.bindPopup(out.join('<br />'));
 			}
 		}}).addTo(m);
+
 		const base = 'assets/TM_WORLD_BORDERS_SIMPL-0.3.zip';
 			shp(base).then(function(data) {
 				geo.addData(data);
