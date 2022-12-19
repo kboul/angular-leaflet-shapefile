@@ -121,6 +121,8 @@
 				}
 			}
 		}
-	},
-	"defaultProject": "angular-leaflet-shapefile"
+  },
+  "cli": {
+    "analytics": false
+  }
 }
