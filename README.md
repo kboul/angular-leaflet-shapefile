@@ -1,8 +1,8 @@
 # AngularLeafletShapefile
 
-Display a shapefile after converting it to GeoJSON using leaflet & Angular 10.
+Display a shapefile after converting it to GeoJSON using leaflet & Angular 14.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.
 
 ## Development server
 
